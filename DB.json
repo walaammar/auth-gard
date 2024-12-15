@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "email": "mohamedbenmohamed@gmail.com",
+      "password": "$2a$10$TA3.N2GUZdkjqMqeNrcDkeeF88dvef1ZvEo.G5aG.eT6/aRAKO75C",
+      "name": "mohamed",
+      "username": "benmohamed",
+      "role": "ROLE_ADMIN",
+      "id": 1
+    }
+  ],
+  "otherCollections": []
+}
