@@ -1,28 +1,26 @@
-
-
 <div class="container">
 	<div class="screen">
 		<div class="screen__content">
 			<form class="login" (ngSubmit)="login(loginForm.value)" #loginForm="ngForm">
 				<div class="login__field">
 					<i class="login__icon fas fa-user"></i>
-					<input type="text" class="login__input" placeholder=" Email" name="email" ngModel required>
+					<input type="email" class="login__input" placeholder="Email" name="email" ngModel required>
 				</div>
 				<div class="login__field">
 					<i class="login__icon fas fa-lock"></i>
-					<input type="password" class="login__input" placeholder="Password" name="password" ngModel required>
+					<input type="password" class="login__input" placeholder="Mot de passe" name="password" ngModel required>
 				</div>
-				<button class="button login__submit">
-					<span class="button__text">Log In Now</span>
+				<button class="button login__submit" type="submit">
+					<span class="button__text">Connexion</span>
 					<i class="button__icon fas fa-chevron-right"></i>
 				</button>				
 			</form>
 			<div class="social-login">
-				
+				<p>Ou connectez-vous avec :</p>
 				<div class="social-icons">
-					<a href="#" class="social-login__icon fab fa-instagram"></a>
-					<a href="#" class="social-login__icon fab fa-facebook"></a>
-					<a href="#" class="social-login__icon fab fa-twitter"></a>
+					<a href="#" class="social-login__icon fab fa-instagram" aria-label="Instagram"></a>
+					<a href="#" class="social-login__icon fab fa-facebook" aria-label="Facebook"></a>
+					<a href="#" class="social-login__icon fab fa-twitter" aria-label="Twitter"></a>
 				</div>
 			</div>
 		</div>

@@ -7,7 +7,15 @@
       "username": "benmohamed",
       "role": "ROLE_ADMIN",
       "id": 1
+    },
+    {
+      "email": "rahma@gmail.com",
+      "password": "$2a$10$nh06lVZZsVFBQkHV9b.IwuW6KDnehn/BUiUa/bsJs.qVj69bVFdiG",
+      "name": "rahma",
+      "username": "draouil",
+      "role": "ROLE_ADMIN",
+      "id": 2
     }
-  ],
-  "otherCollections": []
+  ]
+ 
 }
